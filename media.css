@@ -1,0 +1,83 @@
+@media only screen and (min-width: 360px) and (max-width: 800px) {
+  body {
+    padding: 0px;
+  }
+  .nav-option {
+    width: 55%;
+  }
+  .hide {
+    display: none;
+  }
+  .api {
+    display: none;
+  }
+  .nav-2 {
+    width: 40%;
+  }
+  .nav-option > h2 {
+    font-size: 16px;
+  }
+  .nav-option > h3 {
+    font-size: 14px;
+  }
+  .nav-2 > h3 {
+    font-size: 14px;
+  }
+  .signup {
+    padding: 2px 10px;
+    font-size: 14px;
+  }
+  .content {
+    width: 53%;
+    margin-top: 60px;
+  }
+  .content > h1 {
+    font-size: 25px;
+  }
+  .image {
+    width: 45%;
+    margin-top: 80px;
+}
+#icons {
+    display: none
+}
+.image>p {
+    width: 100%;
+}
+form {
+    width: 80%;
+    position: relative;
+    top: -115px;
+}
+}
+@media only screen and (min-width: 370px) and (max-width: 500px) {
+    form {
+        width: 80%;
+        position: relative;
+        top: -135px;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+    form {
+    width: 80%;
+    position: relative;
+    top: -200px;
+}
+}
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+   body{
+       padding: 10px 30px
+   }
+    .nav-option {
+        width: 55%;
+      }
+      .nav-2{
+          width: 35%
+      }
+      #icons{
+          display: none
+      }
+      .content{
+        margin-top: 80px
+      }
+}
