@@ -45,21 +45,28 @@
     width: 100%;
 }
 form {
-    width: 80%;
+    width: 90%;
     position: relative;
     top: -115px;
 }
 }
-@media only screen and (min-width: 370px) and (max-width: 500px) {
+@media only screen and (min-width: 370px) and (max-width: 420px) {
     form {
         width: 80%;
         position: relative;
-        top: -135px;
+        top: -150px;
     }
 }
-@media only screen and (min-width: 600px) and (max-width: 800px) {
+@media only screen and (min-width: 420px) and (max-width: 500px) {
+  form {
+      width: 80%;
+      position: relative;
+      top: -180px;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 800px) {
     form {
-    width: 80%;
+    width: 50%;
     position: relative;
     top: -200px;
 }
@@ -80,4 +87,9 @@ form {
       .content{
         margin-top: 80px
       }
+      form {
+        width: 50%;
+        position: relative;
+        top: -150px;
+    }
 }
